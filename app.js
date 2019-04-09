@@ -83,6 +83,7 @@ var  budgetController = (function() {
         },
 
         calculateBudget: function() {
+            
             //CALCULATE TOTAL INCOME AND EXPENSES
             calculateTotal('exp');
             calculateTotal('inc');
